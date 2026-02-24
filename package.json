@@ -1,0 +1,28 @@
+{
+  "name": "backend-prac",
+  "version": "1.0.0",
+  "description": "backend tutorial",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LauraBailie/backend-prac.git"
+  },
+  "author": "Laura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LauraBailie/backend-prac/issues"
+  },
+  "homepage": "https://github.com/LauraBailie/backend-prac#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.2",
+    "nodemon": "^3.1.14"
+  }
+}
